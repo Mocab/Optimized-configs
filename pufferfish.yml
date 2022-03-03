@@ -1,0 +1,61 @@
+# Pufferfish Configuration
+# Check out Pufferfish Host for maximum performance server hosting: https://pufferfish.host
+# Join our Discord for support: https://discord.gg/reZw4vQV9H
+# Download new builds at https://ci.pufferfish.host/job/Pufferfish
+info:
+  version: '1.0'
+# Sentry DSN for improved error logging, leave blank to disable
+# Obtain from https://sentry.io/
+sentry-dsn: ''
+# Whether or not books should be writeable.
+# Servers that anticipate being a target for duping may want to consider
+# disabling this option.
+# This can be overridden per-player with the permission pufferfish.usebooks
+enable-books: true
+# Optimizes the suffocation check by selectively skipping
+# the check in a way that still appears vanilla. This should
+# be left enabled on most servers, but is provided as a
+# configuration option if the vanilla deviation is undesirable.
+enable-suffocation-optimization: true
+# Whether or not asynchronous mob spawning should be enabled.
+# On servers with many entities, this can improve performance by up to 15%. You must have
+# paper's per-player-mob-spawns setting set to true for this to work.
+# One quick note - this does not actually spawn mobs async (that would be very unsafe).
+# This just offloads some expensive calculations that are required for mob spawning.
+enable-async-mob-spawning: true
+# Optimizes projectile settings
+projectile:
+  # Controls how many chunks are allowed
+  # to be sync loaded by projectiles in a tick.
+  max-loads-per-tick: 10
+  # Controls how many chunks a projectile
+  # can load in its lifetime before it gets
+  # automatically removed.
+  max-loads-per-projectile: 10
+# Optimizes entity brains when
+# they're far away from the player
+dab:
+  enabled: true
+  # This value determines how far away an entity has to be
+  # from the player to start being effected by DEAR.
+  start-distance: 12
+  # This value defines how often in ticks, the furthest entity
+  # will get their pathfinders and behaviors ticked. 20 = 1s
+  max-tick-freq: 20
+  # This value defines how much distance modifies an entity's
+  # tick frequency. freq = (distanceToPlayer^2) / (2^value)
+  # If you want further away entities to tick less often, use 7.
+  # If you want further away entities to tick more often, try 9.
+  activation-dist-mod: 8
+  # A list of entities to ignore for activation
+  blacklisted-entities: []
+# Throttles the AI goal selector in entity inactive ticks.
+# This can improve performance by a few percent, but has minor gameplay implications.
+inactive-goal-selector-throttle: true
+# Configures Flare, the built-in profiler
+flare:
+  # Sets the server to use for profiles.
+  url: https://flare.airplane.gg
+# Options for connecting to Pufferfish/Airplane's online utilities
+web-services:
+  token: ''
