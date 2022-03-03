@@ -122,7 +122,7 @@ settings:
 world-settings:
   default:
     disable-teleportation-suffocation-check: false
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 4
     water-over-lava-flow-speed: 5
     game-mechanics:
       disable-chest-cat-detection: false
@@ -145,12 +145,12 @@ world-settings:
         start:
           per-player: false
           day: 5
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     nether-ceiling-void-damage-height: 0
     only-players-collide: false
     allow-vehicle-collisions: true
     fix-items-merging-through-walls: false
-    keep-spawn-loaded: true
+    keep-spawn-loaded: false
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
     allow-non-player-entities-on-scoreboards: false
@@ -195,7 +195,7 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     keep-spawn-loaded-range: 10
-    fix-climbing-bypassing-cramming-rule: false
+    fix-climbing-bypassing-cramming-rule: true
     container-update-tick-rate: 1
     split-overstacked-loot: true
     fixed-chunk-inhabited-time: -1
@@ -205,7 +205,7 @@ world-settings:
     show-sign-click-command-failure-msgs-to-player: false
     iron-golems-can-spawn-in-air: false
     armor-stands-tick: true
-    non-player-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 100
     creative-arrow-despawn-rate: -1
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
@@ -230,9 +230,9 @@ world-settings:
     should-remove-dragon: false
     max-auto-save-chunks-per-tick: 24
     baby-zombie-movement-modifier: 0.5
-    optimize-explosions: false
+    optimize-explosions: true
     use-vanilla-world-scoreboard-name-coloring: false
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     count-all-mobs-for-spawning: false
     spawn-limits:
       monster: -1
@@ -269,28 +269,28 @@ world-settings:
     despawn-ranges:
       monster:
         soft: 32
-        hard: 128
+        hard: 104
       creature:
         soft: 32
-        hard: 128
+        hard: 104
       ambient:
         soft: 32
-        hard: 128
+        hard: 104
       axolotls:
         soft: 32
-        hard: 128
+        hard: 104
       underground_water_creature:
         soft: 32
-        hard: 128
+        hard: 104
       water_creature:
         soft: 32
-        hard: 128
+        hard: 104
       water_ambient:
         soft: 32
         hard: 64
       misc:
         soft: 32
-        hard: 128
+        hard: 104
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     slime-spawn-height:
@@ -326,7 +326,7 @@ world-settings:
       immune-to-wither-effect:
         wither: true
         wither-skeleton: true
-    update-pathfinding-on-block-update: true
+    update-pathfinding-on-block-update: false
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     mobs-can-always-pick-up-loot:
@@ -344,16 +344,19 @@ world-settings:
     feature-seeds:
       generate-random-seeds-for-all: false
     entity-per-chunk-save-limit:
-      experience_orb: -1
-      snowball: -1
-      ender_pearl: -1
-      arrow: -1
-      fireball: -1
-      small_fireball: -1
+      experience_orb: 50
+      snowball: 10
+      ender_pearl: 10
+      arrow: 20
+      fireball: 10
+      small_fireball: 10
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
-        COBBLESTONE: 300
+          KELP: 600
+          BAMBOO: 600
+          CACTUS: 600
+	  WHEAT_SEEDS: 600
     tick-rates:
       sensor:
         villager:

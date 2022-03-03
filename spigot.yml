@@ -63,8 +63,8 @@ world-settings:
     verbose: false
     enable-zombie-pigmen-portal-spawns: true
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 3.5
+      exp: 4.0
     item-despawn-rate: 6000
     view-distance: default
     simulation-distance: default
@@ -75,7 +75,7 @@ world-settings:
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
-    mob-spawn-range: 8
+    mob-spawn-range: 5
     end-portal-sound-radius: 0
     growth:
       cactus-modifier: 100
