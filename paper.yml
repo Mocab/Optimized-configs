@@ -356,7 +356,7 @@ world-settings:
           KELP: 600
           BAMBOO: 600
           CACTUS: 600
-	  WHEAT_SEEDS: 600
+          WHEAT_SEEDS: 600
     tick-rates:
       sensor:
         villager:
