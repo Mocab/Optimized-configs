@@ -15,7 +15,7 @@
 + Prevents players from moving into unloaded chunks
 + Decreases the hard despawn range down to 104 blocks
 + Decreases simulation distance to 6 chunks
-+ Reduces the mob spawn range to 5 chunks.
++ Reduces the mob spawn range to 5 chunks
 
 A List of all the changes can be found [here](https://github.com/Mocab/Optimized-Minecraft-server-configurations/commit/b531d1b99ce5f703a0aa12211bbfa468aa6d1581).
 
