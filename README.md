@@ -11,7 +11,7 @@
 + Increases the time it takes for mobs to spawn (not noticeable)
 + Increases time take for grass to spread (not noticeable)
 + Uses optimized Redstone
-+ Uses optimized explorations
++ Uses optimized explosions
 + Prevents players from moving into unloaded chunks
 + Decreases the hard despawn range down to 104 blocks
 + Decreases simulation distance to 6 chunks
