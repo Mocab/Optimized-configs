@@ -1,4 +1,4 @@
-### This repository contains all the optimized configuration files for a [Purpur](purpurmc.org) server:
+### This repository contains all the optimized configuration files for a [Purpur](https://purpurmc.org) server:
 + [bukkit.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/bukkit.yml)
 + [spigot.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/spigot.yml)
 + [paper.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/paper.yml)
