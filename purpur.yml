@@ -36,7 +36,7 @@ settings:
   disable-give-dropping: false
   tps-catchup: true
   server-mod-name: Purpur
-  use-alternate-keepalive: false
+  use-alternate-keepalive: true
   broadcasts:
     advancement:
       only-broadcast-to-affected-player: false
@@ -1298,7 +1298,7 @@ world-settings:
         fix-nametags: false
         can-movement-tick: true
         can-move-in-water: true
-        can-move-in-water-over-fence: true
+        can-move-in-water-over-fence: false
         place-with-arms-visible: false
       use-better-mending: false
       always-tame-in-creative: false

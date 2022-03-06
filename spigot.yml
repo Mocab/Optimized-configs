@@ -16,9 +16,9 @@ settings:
   bungeecord: false
   player-shuffle: 0
   user-cache-size: 1000
-  save-user-cache-on-stop-only: false
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  save-user-cache-on-stop-only: true
+  moved-wrongly-threshold: 1.0625
+  moved-too-quickly-multiplier: 20.0
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -75,7 +75,7 @@ world-settings:
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
-    mob-spawn-range: 5
+    mob-spawn-range: 6
     end-portal-sound-radius: 0
     growth:
       cactus-modifier: 100
@@ -99,12 +99,12 @@ world-settings:
       cavevines-modifier: 100
       glowberry-modifier: 100
     entity-activation-range:
-      animals: 32
+      animals: 28
       monsters: 32
       raiders: 48
-      misc: 16
+      misc: 12
       water: 16
-      villagers: 32
+      villagers: 24
       flying-monsters: 32
       wake-up-inactive:
         animals-max-per-tick: 4
@@ -122,7 +122,7 @@ world-settings:
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
       ignore-spectators: false
     entity-tracking-range:
       players: 48
@@ -161,8 +161,8 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 1000
+      entity: 1000
 config-version: 12
 stats:
   disable-saving: false

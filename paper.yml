@@ -199,7 +199,7 @@ world-settings:
     grass-spread-tick-rate: 4
     use-faster-eigencraft-redstone: true
     fixed-chunk-inhabited-time: -1
-    remove-corrupt-tile-entities: false
+    remove-corrupt-tile-entities: true
     prevent-tnt-from-moving-in-water: false
     show-sign-click-command-failure-msgs-to-player: false
     iron-golems-can-spawn-in-air: false
@@ -228,11 +228,11 @@ world-settings:
     delay-chunk-unloads-by: 10s
     piglins-guard-chests: true
     should-remove-dragon: false
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 12
     baby-zombie-movement-modifier: 0.5
     optimize-explosions: true
     use-vanilla-world-scoreboard-name-coloring: false
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     count-all-mobs-for-spawning: false
     spawn-limits:
       monster: -1
@@ -269,28 +269,28 @@ world-settings:
     despawn-ranges:
       monster:
         soft: 32
-        hard: 104
+        hard: 98
       creature:
         soft: 32
-        hard: 104
+        hard: 98
       ambient:
         soft: 32
-        hard: 104
+        hard: 82
       axolotls:
         soft: 32
-        hard: 104
+        hard: 98
       underground_water_creature:
         soft: 32
-        hard: 104
+        hard: 82
       water_creature:
         soft: 32
-        hard: 104
+        hard: 98
       water_ambient:
         soft: 32
         hard: 64
       misc:
         soft: 32
-        hard: 104
+        hard: 98
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     slime-spawn-height:
@@ -353,7 +353,6 @@ world-settings:
     alt-item-despawn-rate:
       enabled: true
       items:
-        COBBLESTONE: 300
         KELP: 600
         BAMBOO: 600
         CACTUS: 600
