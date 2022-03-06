@@ -7,7 +7,7 @@
 + [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/server.properties)
 
 ## What these configurations change:
-+ halves the mob spawns
++ Halves the mob spawns
 + Increases the time it takes for mobs to spawn (not noticeable)
 + Increases time take for grass to spread (not noticeable)
 + Uses optimized Redstone
