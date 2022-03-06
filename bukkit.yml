@@ -10,22 +10,22 @@ settings:
   shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
-  monsters: 35
-  animals: 5
-  water-animals: 3
-  water-ambient: 10
-  water-underground-creature: 3
-  axolotls: 3
-  ambient: 3
+  monsters: 70
+  animals: 10
+  water-animals: 5
+  water-ambient: 20
+  water-underground-creature: 5
+  axolotls: 5
+  ambient: 15
 chunk-gc:
   period-in-ticks: 600
 ticks-per:
   animal-spawns: 400
-  monster-spawns: 10
-  water-spawns: 400
-  water-ambient-spawns: 400
-  water-underground-creature-spawns: 400
-  axolotl-spawns: 400
-  ambient-spawns: 400
+  monster-spawns: 1
+  water-spawns: 1
+  water-ambient-spawns: 1
+  water-underground-creature-spawns: 1
+  axolotl-spawns: 1
+  ambient-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml

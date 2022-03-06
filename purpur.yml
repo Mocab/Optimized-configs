@@ -33,9 +33,9 @@ settings:
     suppress-ignored-advancement-warnings: false
     suppress-unrecognized-recipe-errors: false
     suppress-setblock-in-far-chunk-errors: false
+  disable-give-dropping: false
   tps-catchup: true
   server-mod-name: Purpur
-  disable-give-dropping: false
   use-alternate-keepalive: false
   broadcasts:
     advancement:
@@ -1000,9 +1000,9 @@ world-settings:
         explosion-effect: DESTROY
       big_dripleaf:
         tilt-delay:
-          UNSTABLE: 10
-          PARTIAL: 10
           FULL: 100
+          PARTIAL: 10
+          UNSTABLE: 10
       budding_amethyst:
         silk-touch: false
       cactus:
@@ -1124,163 +1124,163 @@ world-settings:
     tools:
       axe:
         strippables:
-          minecraft:crimson_stem:
-            into: minecraft:stripped_crimson_stem
-            drops: {}
-          minecraft:warped_hyphae:
-            into: minecraft:stripped_warped_hyphae
-            drops: {}
-          minecraft:crimson_hyphae:
-            into: minecraft:stripped_crimson_hyphae
-            drops: {}
-          minecraft:spruce_wood:
-            into: minecraft:stripped_spruce_wood
-            drops: {}
-          minecraft:oak_wood:
-            into: minecraft:stripped_oak_wood
-            drops: {}
-          minecraft:dark_oak_log:
-            into: minecraft:stripped_dark_oak_log
-            drops: {}
-          minecraft:acacia_wood:
-            into: minecraft:stripped_acacia_wood
-            drops: {}
-          minecraft:jungle_wood:
-            into: minecraft:stripped_jungle_wood
-            drops: {}
-          minecraft:birch_log:
-            into: minecraft:stripped_birch_log
-            drops: {}
-          minecraft:birch_wood:
-            into: minecraft:stripped_birch_wood
-            drops: {}
-          minecraft:acacia_log:
-            into: minecraft:stripped_acacia_log
-            drops: {}
-          minecraft:dark_oak_wood:
-            into: minecraft:stripped_dark_oak_wood
-            drops: {}
           minecraft:jungle_log:
+            drops: {}
             into: minecraft:stripped_jungle_log
+          minecraft:dark_oak_wood:
             drops: {}
-          minecraft:oak_log:
-            into: minecraft:stripped_oak_log
+            into: minecraft:stripped_dark_oak_wood
+          minecraft:acacia_log:
             drops: {}
-          minecraft:spruce_log:
-            into: minecraft:stripped_spruce_log
+            into: minecraft:stripped_acacia_log
+          minecraft:birch_wood:
             drops: {}
+            into: minecraft:stripped_birch_wood
+          minecraft:birch_log:
+            drops: {}
+            into: minecraft:stripped_birch_log
+          minecraft:jungle_wood:
+            drops: {}
+            into: minecraft:stripped_jungle_wood
+          minecraft:acacia_wood:
+            drops: {}
+            into: minecraft:stripped_acacia_wood
+          minecraft:dark_oak_log:
+            drops: {}
+            into: minecraft:stripped_dark_oak_log
+          minecraft:oak_wood:
+            drops: {}
+            into: minecraft:stripped_oak_wood
+          minecraft:spruce_wood:
+            drops: {}
+            into: minecraft:stripped_spruce_wood
+          minecraft:crimson_hyphae:
+            drops: {}
+            into: minecraft:stripped_crimson_hyphae
+          minecraft:warped_hyphae:
+            drops: {}
+            into: minecraft:stripped_warped_hyphae
+          minecraft:crimson_stem:
+            drops: {}
+            into: minecraft:stripped_crimson_stem
           minecraft:warped_stem:
+            drops: {}
             into: minecraft:stripped_warped_stem
+          minecraft:spruce_log:
             drops: {}
+            into: minecraft:stripped_spruce_log
+          minecraft:oak_log:
+            drops: {}
+            into: minecraft:stripped_oak_log
         waxables:
-          minecraft:waxed_cut_copper_stairs:
-            into: minecraft:cut_copper_stairs
-            drops: {}
-          minecraft:waxed_exposed_copper:
-            into: minecraft:exposed_copper
-            drops: {}
-          minecraft:waxed_weathered_cut_copper_slab:
-            into: minecraft:weathered_cut_copper_slab
-            drops: {}
-          minecraft:waxed_oxidized_cut_copper_slab:
-            into: minecraft:oxidized_cut_copper_slab
-            drops: {}
-          minecraft:waxed_exposed_cut_copper_stairs:
-            into: minecraft:exposed_cut_copper_stairs
-            drops: {}
-          minecraft:waxed_weathered_cut_copper:
-            into: minecraft:weathered_cut_copper
-            drops: {}
-          minecraft:waxed_oxidized_cut_copper:
-            into: minecraft:oxidized_cut_copper
-            drops: {}
-          minecraft:waxed_weathered_copper:
-            into: minecraft:weathered_copper
-            drops: {}
-          minecraft:waxed_oxidized_copper:
-            into: minecraft:oxidized_copper
-            drops: {}
-          minecraft:waxed_copper_block:
-            into: minecraft:copper_block
-            drops: {}
-          minecraft:waxed_cut_copper_slab:
-            into: minecraft:cut_copper_slab
-            drops: {}
-          minecraft:waxed_exposed_cut_copper_slab:
-            into: minecraft:exposed_cut_copper_slab
-            drops: {}
-          minecraft:waxed_weathered_cut_copper_stairs:
-            into: minecraft:weathered_cut_copper_stairs
-            drops: {}
           minecraft:waxed_oxidized_cut_copper_stairs:
+            drops: {}
             into: minecraft:oxidized_cut_copper_stairs
+          minecraft:waxed_weathered_cut_copper_stairs:
             drops: {}
-          minecraft:waxed_exposed_cut_copper:
-            into: minecraft:exposed_cut_copper
-            drops: {}
-          minecraft:waxed_cut_copper:
-            into: minecraft:cut_copper
-            drops: {}
-        weatherables:
-          minecraft:exposed_cut_copper_slab:
-            into: minecraft:cut_copper_slab
-            drops: {}
-          minecraft:oxidized_cut_copper_stairs:
             into: minecraft:weathered_cut_copper_stairs
+          minecraft:waxed_exposed_cut_copper_slab:
             drops: {}
-          minecraft:oxidized_copper:
-            into: minecraft:weathered_copper
-            drops: {}
-          minecraft:exposed_cut_copper_stairs:
-            into: minecraft:cut_copper_stairs
-            drops: {}
-          minecraft:weathered_copper:
-            into: minecraft:exposed_copper
-            drops: {}
-          minecraft:exposed_cut_copper:
-            into: minecraft:cut_copper
-            drops: {}
-          minecraft:oxidized_cut_copper:
-            into: minecraft:weathered_cut_copper
-            drops: {}
-          minecraft:exposed_copper:
-            into: minecraft:copper_block
-            drops: {}
-          minecraft:weathered_cut_copper_stairs:
-            into: minecraft:exposed_cut_copper_stairs
-            drops: {}
-          minecraft:weathered_cut_copper_slab:
             into: minecraft:exposed_cut_copper_slab
+          minecraft:waxed_cut_copper_slab:
             drops: {}
-          minecraft:oxidized_cut_copper_slab:
+            into: minecraft:cut_copper_slab
+          minecraft:waxed_copper_block:
+            drops: {}
+            into: minecraft:copper_block
+          minecraft:waxed_oxidized_copper:
+            drops: {}
+            into: minecraft:oxidized_copper
+          minecraft:waxed_weathered_copper:
+            drops: {}
+            into: minecraft:weathered_copper
+          minecraft:waxed_oxidized_cut_copper:
+            drops: {}
+            into: minecraft:oxidized_cut_copper
+          minecraft:waxed_weathered_cut_copper:
+            drops: {}
+            into: minecraft:weathered_cut_copper
+          minecraft:waxed_exposed_cut_copper_stairs:
+            drops: {}
+            into: minecraft:exposed_cut_copper_stairs
+          minecraft:waxed_oxidized_cut_copper_slab:
+            drops: {}
+            into: minecraft:oxidized_cut_copper_slab
+          minecraft:waxed_weathered_cut_copper_slab:
+            drops: {}
             into: minecraft:weathered_cut_copper_slab
+          minecraft:waxed_exposed_copper:
             drops: {}
-          minecraft:weathered_cut_copper:
+            into: minecraft:exposed_copper
+          minecraft:waxed_cut_copper_stairs:
+            drops: {}
+            into: minecraft:cut_copper_stairs
+          minecraft:waxed_cut_copper:
+            drops: {}
+            into: minecraft:cut_copper
+          minecraft:waxed_exposed_cut_copper:
+            drops: {}
             into: minecraft:exposed_cut_copper
+        weatherables:
+          minecraft:weathered_cut_copper_slab:
             drops: {}
+            into: minecraft:exposed_cut_copper_slab
+          minecraft:weathered_cut_copper_stairs:
+            drops: {}
+            into: minecraft:exposed_cut_copper_stairs
+          minecraft:exposed_copper:
+            drops: {}
+            into: minecraft:copper_block
+          minecraft:oxidized_cut_copper:
+            drops: {}
+            into: minecraft:weathered_cut_copper
+          minecraft:exposed_cut_copper:
+            drops: {}
+            into: minecraft:cut_copper
+          minecraft:weathered_copper:
+            drops: {}
+            into: minecraft:exposed_copper
+          minecraft:exposed_cut_copper_stairs:
+            drops: {}
+            into: minecraft:cut_copper_stairs
+          minecraft:oxidized_copper:
+            drops: {}
+            into: minecraft:weathered_copper
+          minecraft:oxidized_cut_copper_stairs:
+            drops: {}
+            into: minecraft:weathered_cut_copper_stairs
+          minecraft:exposed_cut_copper_slab:
+            drops: {}
+            into: minecraft:cut_copper_slab
+          minecraft:weathered_cut_copper:
+            drops: {}
+            into: minecraft:exposed_cut_copper
+          minecraft:oxidized_cut_copper_slab:
+            drops: {}
+            into: minecraft:weathered_cut_copper_slab
       hoe:
         tillables:
-          minecraft:rooted_dirt:
+          minecraft:coarse_dirt:
+            condition: air_above
+            drops: {}
             into: minecraft:dirt
+          minecraft:grass_block:
+            condition: air_above
+            drops: {}
+            into: minecraft:farmland
+          minecraft:dirt:
+            condition: air_above
+            drops: {}
+            into: minecraft:farmland
+          minecraft:rooted_dirt:
+            condition: always
             drops:
               minecraft:hanging_roots: 1.0
-            condition: always
-          minecraft:dirt:
-            into: minecraft:farmland
-            drops: {}
-            condition: air_above
-          minecraft:grass_block:
-            into: minecraft:farmland
-            drops: {}
-            condition: air_above
-          minecraft:coarse_dirt:
             into: minecraft:dirt
-            drops: {}
-            condition: air_above
           minecraft:dirt_path:
-            into: minecraft:farmland
-            drops: {}
             condition: air_above
+            drops: {}
+            into: minecraft:farmland
         replant-crops: false
         replant-nether-warts: false
     ridable-settings:
