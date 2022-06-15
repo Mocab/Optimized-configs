@@ -7,6 +7,8 @@ This repository contains all the optimized configuration files for a 1.18.2 [Pur
 + [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/pufferfish.yml)
 + [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/server.properties)
 
+> 1.19 will soon be added ~~once I'm done with exams~~
+
 ## Usage:
 Prerequisites:
 + An already set up Purpur server
@@ -316,6 +318,6 @@ No changes have been made.
 
 ----------------------------------------------------------------------
 
-### This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
+#### This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
