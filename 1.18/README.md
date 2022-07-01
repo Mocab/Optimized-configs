@@ -1,11 +1,11 @@
 # Optimized Purpur Configuration Files
 This repository contains all the optimized configuration files for a 1.18.2 [Purpur](https://purpurmc.org) server:
-+ [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/bukkit.yml)
-+ [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/spigot.yml)
-+ [paper.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/paper.yml)
-+ [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/purpur.yml)
-+ [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/pufferfish.yml)
-+ [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/server.properties)
++ [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/1.18/bukkit.yml)
++ [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/1.18/spigot.yml)
++ [paper.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/1.18/paper.yml)
++ [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/1.18/purpur.yml)
++ [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/1.18/pufferfish.yml)
++ [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/b531d1b99ce5f703a0aa12211bbfa468aa6d1581/1.18/server.properties)
 
 
 ## Usage:
@@ -19,7 +19,7 @@ These configs slightly change certain aspects of the game, however these are usu
 
 ---------------------------------------------------------------
 
-### [Bukkit.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/bukkit.yml)
+### [Bukkit.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/bukkit.yml)
 
 **spawn-limits**
 
@@ -59,7 +59,7 @@ These configs slightly change certain aspects of the game, however these are usu
 ```
 ---------------------------------------------------------------
 
-### [Spigot.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/spigot.yml)
+### [Spigot.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/spigot.yml)
 
 **save-user-cache-on-stop-only**
 
@@ -135,7 +135,7 @@ These configs slightly change certain aspects of the game, however these are usu
 
 -----------------------------------------------
 
-### [Paper.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/paper.yml)
+### [Paper.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/paper.yml)
 
 **keep-spawn-loaded**
 
@@ -275,7 +275,7 @@ These configs slightly change certain aspects of the game, however these are usu
 
 ----------------------------------------------------------
 
-### [Purpur.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/purpur.yml)
+### [Purpur.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/purpur.yml)
 
 **use-alternate-keepalive**
 
@@ -293,13 +293,13 @@ These configs slightly change certain aspects of the game, however these are usu
 
 ------------------------------------------
 
-### [Pufferfish.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/pufferfish.yml)
+### [Pufferfish.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/pufferfish.yml)
 
 No changes have been made.
 
 -----------------------------------------------
 
-### [Server.properties](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/server.properties)
+### [Server.properties](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/server.properties)
 
 **view-distance**
 
