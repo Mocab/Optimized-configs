@@ -1,8 +1,8 @@
 # Optimized Purpur Configuration Files
 This repository contains all the optimized configuration files for a [Purpur](https://purpurmc.org) server:
 
-+ [1.18]()
-+ [1.19]()
++ [1.18](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/README.md)
++ [1.19](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/README.md)
 
 ## Usage:
 Prerequisites:
