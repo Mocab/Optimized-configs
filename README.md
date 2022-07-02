@@ -1,5 +1,5 @@
-# Optimized Purpur Configuration Files
-This repository contains all the optimized configuration files for a [Purpur](https://purpurmc.org) server
+# Optimized Minecraft Server Configuration Files
+This repository contains all the optimized configuration files for a Minecraft server.
 
 ### Versions:
 + [1.18](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/README.md)
@@ -7,7 +7,10 @@ This repository contains all the optimized configuration files for a [Purpur](ht
 
 ## Usage:
 Prerequisites:
-+ An already set up Purpur server
++ An already set up Minecraft server
+
+These configs should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), Pufferfish, etc), but you may need to remove some of the config files. For example Paper does not need `purpur.yml` or `pufferfish.yml`.
+
 
 ## Changes:
 These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made and make any changes needed.
