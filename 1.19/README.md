@@ -18,7 +18,7 @@ This folder contains all the optimized configuration files for a 1.19 [Purpur](h
 Simply download the configuration files included above (except `paper-global.yml` and `paper-world-defaults.yml`) and upload them to your server's root/container.
 As for `paper-global.yml` and `paper-world-defaults.yml` you must upload them to your "config" folder.
 
-Alternatively you can copy the file's contents then paste them into your server's configuration files.
+Alternatively, you can copy the file's contents then paste them into your server's configuration files.
 
 ## Changes:
 These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes needed:
@@ -405,6 +405,6 @@ No changes have been made
 
 ----------------------------------------------------------------------
 
-#### This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
+This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
