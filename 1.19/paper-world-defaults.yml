@@ -150,10 +150,10 @@ entities:
         granite: 600
         andesite: 600
         scaffolding: 900
-	      wheat_seeds: 300
-	      melon_seeds: 300
-	      pumpkin_seeds: 300
-	      beetroot_seeds: 300
+        wheat_seeds: 300
+        melon_seeds: 300
+        pumpkin_seeds: 300
+        beetroot_seeds: 300
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: 60
     despawn-ranges:
