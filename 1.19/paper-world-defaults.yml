@@ -55,12 +55,12 @@ chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
-    experience_orb: 10
-    snowball: 5
-    ender_pearl: 5
     arrow: 5
+    ender_pearl: 5
+    experience_orb: 10
     fireball: 5
     small_fireball: 5
+    snowball: 5
   fixed-chunk-inhabited-time: -1
   max-auto-save-chunks-per-tick: 12
   prevent-moving-into-unloaded-chunks: true
