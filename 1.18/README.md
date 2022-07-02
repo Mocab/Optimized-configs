@@ -1,5 +1,5 @@
-# Optimized Purpur Configuration Files
-This folder contains all the optimized configuration files for a 1.18.2 [Purpur](https://purpurmc.org) server:
+# Optimized Minecraft Server Configuration Files
+This folder contains all the optimized configuration files for a 1.18.2 Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/spigot.yml)
 + [paper.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/paper.yml)

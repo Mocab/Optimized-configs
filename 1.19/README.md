@@ -1,5 +1,5 @@
-# Optimized Purpur Configuration Files
-This folder contains all the optimized configuration files for a 1.19 [Purpur](https://purpurmc.org) server:
+# Optimized Minecraft Server Configuration Files
+This folder contains all the optimized configuration files for a 1.19 Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/spigot.yml)
 + [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/paper-global.yml)
@@ -13,12 +13,14 @@ This folder contains all the optimized configuration files for a 1.19 [Purpur](h
 **Prerequisites:**
 + An already set up Purpur server
 
+These configs should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), Pufferfish, etc), but you may need to remove some of the config files. For example Paper does not need `purpur.yml` or `pufferfish.yml`.
+
 **Instalation:**
 
 Simply download the configuration files included above (except `paper-global.yml` and `paper-world-defaults.yml`) and upload them to your server's root/container.
-As for `paper-global.yml` and `paper-world-defaults.yml` you must upload them to your "config" folder.
+As for `paper-global.yml` and `paper-world-defaults.yml` you must upload them to the "config" folder.
 
-Alternatively, you can copy the file's contents then paste them into your server's configuration files.
+Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
 ## Changes:
 These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes needed:
