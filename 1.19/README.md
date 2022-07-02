@@ -3,7 +3,7 @@ This folder contains all the optimized configuration files for a 1.19 [Purpur](h
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/spigot.yml)
 + [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/paper-global.yml)
-+ [paper-world-defaults.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml)
++ [paper-world-defaults.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/paper-world-defaults.yml)
 + [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/purpur.yml)
 + [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/pufferfish.yml)
 + [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/server.properties)
@@ -14,6 +14,7 @@ This folder contains all the optimized configuration files for a 1.19 [Purpur](h
 + An already set up Purpur server
 
 **Instalation:**
+
 Simply download the configuration files included above (except `paper-global.yml` and `paper-world-defaults.yml`) and upload them to your server's root/container.
 As for `paper-global.yml` and `paper-world-defaults.yml` you must upload them to your "config" folder.
 
@@ -226,10 +227,10 @@ No changes have been made
 +        granite: 600
 +        andesite: 600
 +        scaffolding: 900
-+	      wheat_seeds: 300
-+	      melon_seeds: 300
-+	      pumpkin_seeds: 300
-+	      beetroot_seeds: 300
++        wheat_seeds: 300
++	  melon_seeds: 300
++	  pumpkin_seeds: 300
++	  beetroot_seeds: 300
 ```
 
 **non-player-arrow-despawn-rate**
