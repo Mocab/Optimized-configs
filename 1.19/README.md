@@ -17,8 +17,7 @@ These configs should work in any server using [Paper](https://papermc.io) or any
 
 **Instalation:**
 
-Simply download the configuration files included above (except `paper-global.yml` and `paper-world-defaults.yml`) and upload them to your server's root/container.
-As for `paper-global.yml` and `paper-world-defaults.yml` you must upload them to the "config" folder.
+Simply download the configuration files/folders included above (Including the "config" folder) and upload them to your server's root/container.
 
 Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
