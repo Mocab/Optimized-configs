@@ -2,8 +2,8 @@
 This folder contains all the optimized configuration files for a 1.19 Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/spigot.yml)
-+ [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/paper-global.yml)
-+ [paper-world-defaults.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/paper-world-defaults.yml)
++ [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/main/1.19/config/paper-global.yml)
++ [paper-world-defaults.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/main/1.19/config/paper-world-defaults.yml)
 + [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/purpur.yml)
 + [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/pufferfish.yml)
 + [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/server.properties)
