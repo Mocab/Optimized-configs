@@ -40,11 +40,11 @@ These configs slightly change certain aspects of the game, however these are usu
 -  axolotls: 5
 -  ambient: 15
 +  monsters: 35
-+  animals: 5
-+  water-animals: 3
-+  water-ambient: 7
++  animals: 10
++  water-animals: 5
++  water-ambient: 10
 +  water-underground-creature: 3
-+  axolotls: 3
++  axolotls: 5
 +  ambient: 3
 ```
 
@@ -181,6 +181,13 @@ No changes have been made
 ```diff
 -    prevent-moving-into-unloaded-chunks: false
 +    prevent-moving-into-unloaded-chunks: true
+```
+
+**max-entity-collisions**
+
+```diff
+-  max-entity-collisions: 8
++  max-entity-collisions: 6
 ```
 
 **fix-climbing-bypassing-cramming-rule**
@@ -344,6 +351,13 @@ No changes have been made
 +  mob-spawner: 2
 ```
 
+**villager**
+
+```diff
+-      secondarypoisensor: 40
++      secondarypoisensor: 80
+```
+
 ----------------------------------------------------------
 
 ### [Purpur.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/purpur.yml)
@@ -390,13 +404,6 @@ No changes have been made
 -----------------------------------------------
 
 ### [Server.properties](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/server.properties)
-
-**view-distance**
-
-```diff
-- view-distance=10
-+ view-distance=8
-```
 
 **simulation-distance**
 

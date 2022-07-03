@@ -68,7 +68,7 @@ collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
   fix-climbing-bypassing-cramming-rule: true
-  max-entity-collisions: 8
+  max-entity-collisions: 6
   only-players-collide: false
 entities:
   armor-stands:
@@ -296,6 +296,6 @@ tick-rates:
   mob-spawner: 2
   sensor:
     villager:
-      secondarypoisensor: 40
+      secondarypoisensor: 80
 unsupported-settings:
   fix-invulnerable-end-crystal-exploit: true
