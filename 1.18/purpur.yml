@@ -10,7 +10,11 @@
 
 verbose: false
 settings:
+  use-alternate-keepalive: true
   messages:
+    death-message:
+      stonecutter: <player> has sawed themself in half
+      run-with-scissors: <player> slipped and fell on their shears
     cannot-ride-mob: <red>You cannot mount that mob
     afk-broadcast-away: <yellow><italic>%s is now AFK
     afk-broadcast-back: <yellow><italic>%s is no longer AFK
@@ -25,18 +29,6 @@ settings:
     unverified-username: default
     sleep-skipping-night: default
     sleeping-players-percent: default
-    death-message:
-      stonecutter: <player> has sawed themself in half
-      run-with-scissors: <player> slipped and fell on their shears
-  logger:
-    suppress-init-legacy-material-errors: false
-    suppress-ignored-advancement-warnings: false
-    suppress-unrecognized-recipe-errors: false
-    suppress-setblock-in-far-chunk-errors: false
-  disable-give-dropping: false
-  tps-catchup: true
-  server-mod-name: Purpur
-  use-alternate-keepalive: true
   broadcasts:
     advancement:
       only-broadcast-to-affected-player: false
@@ -112,6 +104,7 @@ settings:
     allow-looting-on-shears: false
     allow-unsafe-enchants: false
     allow-unsafe-enchant-command: false
+    clamp-levels: true
   entity:
     enderman:
       short-height: false
@@ -121,6 +114,14 @@ settings:
     max-joins-per-second: false
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   food-properties: {}
+  logger:
+    suppress-init-legacy-material-errors: false
+    suppress-ignored-advancement-warnings: false
+    suppress-unrecognized-recipe-errors: false
+    suppress-setblock-in-far-chunk-errors: false
+  tps-catchup: true
+  server-mod-name: Purpur
+  disable-give-dropping: false
 config-version: 27
 world-settings:
   default:
@@ -465,6 +466,7 @@ world-settings:
         breeding-delay-ticks: 6000
         takes-damage-from-water: false
         stand-with-rider: true
+        stand-when-hurt: true
         always-drop-exp: false
       husk:
         ridable: false
@@ -1000,9 +1002,9 @@ world-settings:
         explosion-effect: DESTROY
       big_dripleaf:
         tilt-delay:
+          UNSTABLE: 10
           FULL: 100
           PARTIAL: 10
-          UNSTABLE: 10
       budding_amethyst:
         silk-touch: false
       cactus:
@@ -1085,7 +1087,6 @@ world-settings:
         break-individual-slabs-when-sneaking: false
       spawner:
         deactivate-by-redstone: false
-        fix-mc-50647: false
         fix-mc-238526: false
       sponge:
         absorption:
@@ -1100,6 +1101,7 @@ world-settings:
         break-from-minecarts: true
         bypass-mob-griefing: false
         random-tick-crack-chance: 500
+        feather-fall-distance-affects-trampling: false
       twisting_vines:
         max-growth-age: 25
       water:
@@ -1121,24 +1123,11 @@ world-settings:
         fill-chances:
           rain: 0.05000000074505806
           powder-snow: 0.10000000149011612
+          dripstone-water: 0.17578125
+          dripstone-lava: 0.05859375
     tools:
       axe:
         strippables:
-          minecraft:jungle_log:
-            drops: {}
-            into: minecraft:stripped_jungle_log
-          minecraft:dark_oak_wood:
-            drops: {}
-            into: minecraft:stripped_dark_oak_wood
-          minecraft:acacia_log:
-            drops: {}
-            into: minecraft:stripped_acacia_log
-          minecraft:birch_wood:
-            drops: {}
-            into: minecraft:stripped_birch_wood
-          minecraft:birch_log:
-            drops: {}
-            into: minecraft:stripped_birch_log
           minecraft:jungle_wood:
             drops: {}
             into: minecraft:stripped_jungle_wood
@@ -1172,25 +1161,22 @@ world-settings:
           minecraft:oak_log:
             drops: {}
             into: minecraft:stripped_oak_log
+          minecraft:jungle_log:
+            drops: {}
+            into: minecraft:stripped_jungle_log
+          minecraft:dark_oak_wood:
+            drops: {}
+            into: minecraft:stripped_dark_oak_wood
+          minecraft:acacia_log:
+            drops: {}
+            into: minecraft:stripped_acacia_log
+          minecraft:birch_wood:
+            drops: {}
+            into: minecraft:stripped_birch_wood
+          minecraft:birch_log:
+            drops: {}
+            into: minecraft:stripped_birch_log
         waxables:
-          minecraft:waxed_oxidized_cut_copper_stairs:
-            drops: {}
-            into: minecraft:oxidized_cut_copper_stairs
-          minecraft:waxed_weathered_cut_copper_stairs:
-            drops: {}
-            into: minecraft:weathered_cut_copper_stairs
-          minecraft:waxed_exposed_cut_copper_slab:
-            drops: {}
-            into: minecraft:exposed_cut_copper_slab
-          minecraft:waxed_cut_copper_slab:
-            drops: {}
-            into: minecraft:cut_copper_slab
-          minecraft:waxed_copper_block:
-            drops: {}
-            into: minecraft:copper_block
-          minecraft:waxed_oxidized_copper:
-            drops: {}
-            into: minecraft:oxidized_copper
           minecraft:waxed_weathered_copper:
             drops: {}
             into: minecraft:weathered_copper
@@ -1221,19 +1207,25 @@ world-settings:
           minecraft:waxed_exposed_cut_copper:
             drops: {}
             into: minecraft:exposed_cut_copper
-        weatherables:
-          minecraft:weathered_cut_copper_slab:
+          minecraft:waxed_oxidized_cut_copper_stairs:
+            drops: {}
+            into: minecraft:oxidized_cut_copper_stairs
+          minecraft:waxed_weathered_cut_copper_stairs:
+            drops: {}
+            into: minecraft:weathered_cut_copper_stairs
+          minecraft:waxed_exposed_cut_copper_slab:
             drops: {}
             into: minecraft:exposed_cut_copper_slab
-          minecraft:weathered_cut_copper_stairs:
+          minecraft:waxed_cut_copper_slab:
             drops: {}
-            into: minecraft:exposed_cut_copper_stairs
-          minecraft:exposed_copper:
+            into: minecraft:cut_copper_slab
+          minecraft:waxed_copper_block:
             drops: {}
             into: minecraft:copper_block
-          minecraft:oxidized_cut_copper:
+          minecraft:waxed_oxidized_copper:
             drops: {}
-            into: minecraft:weathered_cut_copper
+            into: minecraft:oxidized_copper
+        weatherables:
           minecraft:exposed_cut_copper:
             drops: {}
             into: minecraft:cut_copper
@@ -1258,29 +1250,41 @@ world-settings:
           minecraft:oxidized_cut_copper_slab:
             drops: {}
             into: minecraft:weathered_cut_copper_slab
+          minecraft:weathered_cut_copper_slab:
+            drops: {}
+            into: minecraft:exposed_cut_copper_slab
+          minecraft:weathered_cut_copper_stairs:
+            drops: {}
+            into: minecraft:exposed_cut_copper_stairs
+          minecraft:exposed_copper:
+            drops: {}
+            into: minecraft:copper_block
+          minecraft:oxidized_cut_copper:
+            drops: {}
+            into: minecraft:weathered_cut_copper
       hoe:
         tillables:
-          minecraft:coarse_dirt:
-            condition: air_above
-            drops: {}
-            into: minecraft:dirt
-          minecraft:grass_block:
-            condition: air_above
-            drops: {}
-            into: minecraft:farmland
           minecraft:dirt:
-            condition: air_above
             drops: {}
             into: minecraft:farmland
+            condition: air_above
           minecraft:rooted_dirt:
-            condition: always
             drops:
               minecraft:hanging_roots: 1.0
             into: minecraft:dirt
+            condition: always
           minecraft:dirt_path:
-            condition: air_above
             drops: {}
             into: minecraft:farmland
+            condition: air_above
+          minecraft:coarse_dirt:
+            drops: {}
+            into: minecraft:dirt
+            condition: air_above
+          minecraft:grass_block:
+            drops: {}
+            into: minecraft:farmland
+            condition: air_above
         replant-crops: false
         replant-nether-warts: false
     ridable-settings:

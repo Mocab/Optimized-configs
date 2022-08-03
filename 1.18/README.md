@@ -19,7 +19,9 @@ These configs slightly change certain aspects of the game, however these are usu
 
 ---------------------------------------------------------------
 
-### [Bukkit.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/bukkit.yml)
+<details>
+<summary><h3>Bukkit.yml<h3></summary>
+<br>
 
 **spawn-limits**
 
@@ -57,9 +59,14 @@ These configs slightly change certain aspects of the game, however these are usu
 +  axolotl-spawns: 400
 +  ambient-spawns: 400
 ```
----------------------------------------------------------------
 
-### [Spigot.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/spigot.yml)
+</details>
+
+----------------------------------------------------------------------
+
+<details>
+<summary><h3>Spigot.yml<h3></summary>
+<br>
 
 **save-user-cache-on-stop-only**
 
@@ -133,9 +140,13 @@ These configs slightly change certain aspects of the game, however these are usu
 +      entity: 1000
 ```
 
------------------------------------------------
+</details>
 
-### [Paper.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/paper.yml)
+----------------------------------------------------------------------
+
+<details>
+<summary><h3>Paper.yml<h3></summary>
+<br>
 
 **keep-spawn-loaded**
 
@@ -158,11 +169,11 @@ These configs slightly change certain aspects of the game, however these are usu
 +    grass-spread-tick-rate: 4
 ```
 
-**use-faster-eigencraft-redstone**
+**redstone-implementation**
 
 ```diff
--    use-faster-eigencraft-redstone: false
-+    use-faster-eigencraft-redstone: true
+-    redstone-implementation: vanilla
++    redstone-implementation: ALTERNATE_CURRENT
 ```
 
 **remove-corrupt-tile-entities**
@@ -273,9 +284,13 @@ These configs slightly change certain aspects of the game, however these are usu
 +        WHEAT_SEEDS: 600
 ```
 
-----------------------------------------------------------
+</details>
 
-### [Purpur.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/purpur.yml)
+----------------------------------------------------------------------
+
+<details>
+<summary><h3>Purpur.yml<h3></summary>
+<br>
 
 **use-alternate-keepalive**
 
@@ -291,15 +306,23 @@ These configs slightly change certain aspects of the game, however these are usu
 +        can-move-in-water-over-fence: false
 ```
 
-------------------------------------------
+</details>
 
-### [Pufferfish.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/pufferfish.yml)
+----------------------------------------------------------------------
+
+<details>
+<summary><h3>Pufferfish.yml<h3></summary>
+<br>
 
 No changes have been made.
 
------------------------------------------------
+</details>
 
-### [Server.properties](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.18/server.properties)
+----------------------------------------------------------------------
+
+<details>
+<summary><h3>Server.properties<h3></summary>
+<br>
 
 **view-distance**
 
@@ -314,6 +337,8 @@ No changes have been made.
 - simulation-distance=10
 + simulation-distance=6
 ```
+
+</details>
 
 ----------------------------------------------------------------------
 

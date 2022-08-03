@@ -3,7 +3,32 @@
 # Join our Discord for support: https://discord.gg/reZw4vQV9H
 # Download new builds at https://ci.pufferfish.host/job/Pufferfish
 info:
+  
   version: '1.0'
+# Throttles the AI goal selector in entity inactive ticks.
+# This can improve performance by a few percent, but has minor gameplay implications.
+inactive-goal-selector-throttle: true
+# Configures Flare, the built-in profiler
+flare:
+  # Sets the server to use for profiles.
+  url: https://flare.airplane.gg
+# Options for connecting to Pufferfish/Airplane's online utilities
+web-services:
+  
+  token: ''
+# Settings for things that don't belong elsewhere
+misc:
+  
+  disable-method-profiler: true
+# These values define a entity's maximum lifespan. If an
+# entity is in this list and it has survived for longer than
+# that number of ticks, then it will be removed. Setting a value to
+# -1 disables this feature.
+entity_timeouts:
+  
+  SNOWBALL: -1
+  
+  LLAMA_SPIT: -1
 # Sentry DSN for improved error logging, leave blank to disable
 # Obtain from https://sentry.io/
 sentry-dsn: ''
@@ -35,6 +60,7 @@ projectile:
 # Optimizes entity brains when
 # they're far away from the player
 dab:
+  
   enabled: true
   # This value determines how far away an entity has to be
   # from the player to start being effected by DEAR.
@@ -49,13 +75,3 @@ dab:
   activation-dist-mod: 8
   # A list of entities to ignore for activation
   blacklisted-entities: []
-# Throttles the AI goal selector in entity inactive ticks.
-# This can improve performance by a few percent, but has minor gameplay implications.
-inactive-goal-selector-throttle: true
-# Configures Flare, the built-in profiler
-flare:
-  # Sets the server to use for profiles.
-  url: https://flare.airplane.gg
-# Options for connecting to Pufferfish/Airplane's online utilities
-web-services:
-  token: ''
