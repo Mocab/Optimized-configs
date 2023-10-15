@@ -1,11 +1,11 @@
 # Optimized Minecraft Server Configuration Files
 This folder contains all the optimized configuration files for a 1.18.2 Minecraft server:
-+ [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/bukkit.yml)
-+ [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/spigot.yml)
-+ [paper.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/paper.yml)
-+ [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/purpur.yml)
-+ [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/pufferfish.yml)
-+ [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.18/server.properties)
++ [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/bukkit.yml)
++ [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/spigot.yml)
++ [paper.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/paper.yml)
++ [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/purpur.yml)
++ [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/pufferfish.yml)
++ [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/server.properties)
 
 
 ## Usage:
