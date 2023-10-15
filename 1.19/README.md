@@ -13,20 +13,21 @@ This folder contains all the optimized configuration files for a 1.19 Minecraft 
 **Prerequisites:**
 + An already set up Purpur server
 
-These configs should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), Pufferfish, etc), but you may need to remove some of the config files. For example Paper does not need `purpur.yml` or `pufferfish.yml`.
+> These configurations should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), etc). However you may need to remove some of the configuration files. As an example, Paper does not need `purpur.yml` or `pufferfish.yml`.
 
-**Instalation:**
+**Installation:**
 
 Simply download the configuration files/folders included above (Including the "config" folder) and upload them to your server's root/container.
-
 Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
 ## Changes:
-These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes needed:
+These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (very unlikely), so we recommend that you go through the changes made below and make any changes as needed:
 
 ---------------------------------------------------------------
 
-### [Bukkit.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/bukkit.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/bukkit.yml">Bukkit.yml</a><h3></summary>
+<br>
 
 **spawn-limits**
 
@@ -65,9 +66,14 @@ These configs slightly change certain aspects of the game, however these are usu
 +  axolotl-spawns: 400
 +  ambient-spawns: 400
 ```
+
+</details>
+
 ---------------------------------------------------------------
 
-### [Spigot.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/spigot.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/spigot.yml">Spigot.yml</a><h3></summary>
+<br>
 
 **save-user-cache-on-stop-only**
 
@@ -141,15 +147,23 @@ These configs slightly change certain aspects of the game, however these are usu
 +      entity: 1000
 ```
 
+</details>
+
 -----------------------------------------------
 
-### [Paper-global.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-global.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-global.yml">Paper-global.yml</a><h3></summary>
+<br>
 
 No changes have been made
 
+</details>
+
 -----------------------------------------------
 
-### [Paper-world-defaults.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml">Paper-world-defaults.yml</a><h3></summary>
+<br>
 
 **entity-per-chunk-save-limit**
 
@@ -357,9 +371,13 @@ No changes have been made
 +      secondarypoisensor: 80
 ```
 
+</details>
+
 ----------------------------------------------------------
 
-### [Purpur.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/purpur.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/purpur.yml">Purpur.yml</a><h3></summary>
+<br>
 
 **use-alternate-keepalive**
 
@@ -382,9 +400,13 @@ No changes have been made
 +        can-move-in-water-over-fence: false
 ```
 
+</details>
+
 ------------------------------------------
 
-### [Pufferfish.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/pufferfish.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/pufferfish.yml">Pufferfish.yml</a><h3></summary>
+<br>
 
 **activation-dist-mod**
 
@@ -400,9 +422,13 @@ No changes have been made
 +  max-loads-per-projectile: 8
 ```
 
+</details>
+
 -----------------------------------------------
 
-### [Server.properties](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/server.properties)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/server.properties">Server.properties</a><h3></summary>
+<br>
 
 **simulation-distance**
 
@@ -411,8 +437,10 @@ No changes have been made
 + simulation-distance=6
 ```
 
+</details>
+
 ----------------------------------------------------------------------
 
-This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
+This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information explained in detail.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
