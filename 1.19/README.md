@@ -1,5 +1,5 @@
 # Optimized Minecraft Server Configuration Files
-This folder contains all the optimized configuration files for a 1.19 Minecraft server:
+This folder contains all the optimized configuration files for a 1.19.4 Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/spigot.yml)
 + [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/main/1.19/config/paper-global.yml)
@@ -13,20 +13,21 @@ This folder contains all the optimized configuration files for a 1.19 Minecraft 
 **Prerequisites:**
 + An already set up Purpur server
 
-These configs should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), Pufferfish, etc), but you may need to remove some of the config files. For example Paper does not need `purpur.yml` or `pufferfish.yml`.
+> These configurations should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), etc). However you may need to remove some of the configuration files. As an example, Paper does not need `purpur.yml` or `pufferfish.yml`.
 
-**Instalation:**
+**Installation:**
 
 Simply download the configuration files/folders included above (Including the "config" folder) and upload them to your server's root/container.
-
 Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
 ## Changes:
-These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes needed:
+These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes as needed:
 
 ---------------------------------------------------------------
 
-### [Bukkit.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/bukkit.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/bukkit.yml">Bukkit.yml</a><h3></summary>
+<br>
 
 **spawn-limits**
 
@@ -65,16 +66,14 @@ These configs slightly change certain aspects of the game, however these are usu
 +  axolotl-spawns: 400
 +  ambient-spawns: 400
 ```
+
+</details>
+
 ---------------------------------------------------------------
 
-### [Spigot.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/spigot.yml)
-
-**save-user-cache-on-stop-only**
-
-```diff
--  save-user-cache-on-stop-only: false
-+  save-user-cache-on-stop-only: true
-```
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/spigot.yml">Spigot.yml</a><h3></summary>
+<br>
 
 **moved-wrongly-threshold**
 
@@ -132,47 +131,29 @@ These configs slightly change certain aspects of the game, however these are usu
 +      tick-inactive-villagers: false
 ```
 
-**max-tick-time**
-
-```diff
--      tile: 50
--      entity: 50
-+      tile: 1000
-+      entity: 1000
-```
+</details>
 
 -----------------------------------------------
 
-### [Paper-global.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-global.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-global.yml">Paper-global.yml</a><h3></summary>
+<br>
 
 No changes have been made
 
+</details>
+
 -----------------------------------------------
 
-### [Paper-world-defaults.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml">Paper-world-defaults.yml</a><h3></summary>
+<br>
 
-**entity-per-chunk-save-limit**
-
-```diff
--      arrow: -1
--      ender_pearl: -1
--      experience_orb: -1
--      fireball: -1
--      small_fireball: -1
--      snowball: -1
-+      arrow: 5
-+      ender_pearl: 5
-+      experience_orb: 10
-+      fireball: 5
-+      small_fireball: 5
-+      snowball: 5
-```
 
 **max-auto-save-chunks-per-tick**
-
 ```diff
--    max-auto-save-chunks-per-tick: 24
-+    max-auto-save-chunks-per-tick: 12
+- max-auto-save-chunks-per-tick: 24
++ max-auto-save-chunks-per-tick: 15
 ```
 
 **prevent-moving-into-unloaded-chunks**
@@ -180,6 +161,42 @@ No changes have been made
 ```diff
 -    prevent-moving-into-unloaded-chunks: false
 +    prevent-moving-into-unloaded-chunks: true
+```
+
+**entity-per-chunk-save-limit**
+
+```diff
+-    arrow: -1
+-    ender_pearl: -1
+-    experience_orb: -1
+-    fireball: -1
+-    small_fireball: -1
+-    snowball: -1
++    area_effect_cloud: 8
++    arrow: 10
++    dragon_fireball: 3
++    egg: 10
++    ender_pearl: 5
++    experience_bottle: 3
++    experience_orb: 16
++    eye_of_ender: 5
++    fireball: 5
++    firework_rocket: 5
++    llama_spit: 3
++    potion: 8
++    shulker_bullet: 5
++    small_fireball: 5
++    snowball: 5
++    spectral_arrow: 10
++    trident: 10
++    wither_skull: 3
+```
+
+**max-auto-save-chunks-per-tick**
+
+```diff
+-    max-auto-save-chunks-per-tick: 24
++    max-auto-save-chunks-per-tick: 15
 ```
 
 **max-entity-collisions**
@@ -236,9 +253,9 @@ No changes have been made
 +        andesite: 600
 +        scaffolding: 900
 +        wheat_seeds: 300
-+	  melon_seeds: 300
-+	  pumpkin_seeds: 300
-+	  beetroot_seeds: 300
++	     melon_seeds: 300
++	     pumpkin_seeds: 300
++	     beetroot_seeds: 300
 ```
 
 **non-player-arrow-despawn-rate**
@@ -301,13 +318,6 @@ No changes have been made
 +        soft: 32
 ```
 
-**non-player-arrow-despawn-rate**
-
-```diff
--    non-player-arrow-despawn-rate: -1
-+    non-player-arrow-despawn-rate: 100
-```
-
 **optimize-explosions**
 
 ```diff
@@ -357,9 +367,13 @@ No changes have been made
 +      secondarypoisensor: 80
 ```
 
+</details>
+
 ----------------------------------------------------------
 
-### [Purpur.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/purpur.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/purpur.yml">Purpur.yml</a><h3></summary>
+<br>
 
 **use-alternate-keepalive**
 
@@ -368,23 +382,19 @@ No changes have been made
 +  use-alternate-keepalive: true
 ```
 
-**brain-ticks**
-
-```diff
--        brain-ticks: 1
-+        brain-ticks: 2
-```
-
-**can-move-in-water-over-fence**
-
-```diff
--        can-move-in-water-over-fence: true
-+        can-move-in-water-over-fence: false
-```
+</details>
 
 ------------------------------------------
 
-### [Pufferfish.yml](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/pufferfish.yml)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/pufferfish.yml">Pufferfish.yml</a><h3></summary>
+<br>
+
+**dab**
+```diff
+- enabled: false
++ enabled: true
+```
 
 **activation-dist-mod**
 
@@ -400,9 +410,14 @@ No changes have been made
 +  max-loads-per-projectile: 8
 ```
 
+
+</details>
+
 -----------------------------------------------
 
-### [Server.properties](https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/server.properties)
+<details>
+<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/server.properties">Server.properties</a><h3></summary>
+<br>
 
 **simulation-distance**
 
@@ -411,8 +426,10 @@ No changes have been made
 + simulation-distance=6
 ```
 
+</details>
+
 ----------------------------------------------------------------------
 
-This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
+This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information explained in detail.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
