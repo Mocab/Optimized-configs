@@ -9,13 +9,17 @@ This folder contains all the optimized configuration files for a 1.18.2 Minecraf
 
 
 ## Usage:
-Prerequisites:
+**Prerequisites:**
 + An already set up Purpur server
 
-Simply download the configuration files included above and upload them to your server's root/container. Alternatively, you can copy the file's contents then paste them into your server's configuration files.
+> These configurations should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), etc). However you may need to remove some of the configuration files. As an example, Paper does not need `purpur.yml` or `pufferfish.yml`.
+
+**Installation:**
+Simply download the configuration files/folders included above and upload them to your server's root/container.
+Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
 ## Changes:
-These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes needed:
+These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes as needed:
 
 ---------------------------------------------------------------
 
@@ -342,6 +346,6 @@ No changes have been made.
 
 ----------------------------------------------------------------------
 
-This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization), I would highly recommend going through them, they contain a lot of information which could help you.
+This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information explained in detail.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
