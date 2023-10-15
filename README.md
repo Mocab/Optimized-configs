@@ -1,5 +1,5 @@
 # Optimized Minecraft Server Configuration Files
-This folder contains all the optimized configuration files for a 1.18.2 Minecraft server:
+This folder contains all the optimized configuration files for a <ins>**1.18.2**</ins> Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/spigot.yml)
 + [paper.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.18/paper.yml)
@@ -15,6 +15,7 @@ This folder contains all the optimized configuration files for a 1.18.2 Minecraf
 > These configurations should work in any server using [Paper](https://papermc.io) or any of its forks ([Purpur](https://purpurmc.org), [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), etc). However you may need to remove some of the configuration files. As an example, Paper does not need `purpur.yml` or `pufferfish.yml`.
 
 **Installation:**
+
 Simply download the configuration files/folders included above and upload them to your server's root/container.
 Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
