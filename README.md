@@ -1,12 +1,12 @@
 # Optimized Minecraft Server Configuration Files
-This folder contains all the optimized configuration files for a 1.19.4 Minecraft server:
-+ [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/bukkit.yml)
-+ [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/spigot.yml)
-+ [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/main/1.19/config/paper-global.yml)
-+ [paper-world-defaults.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/main/1.19/config/paper-world-defaults.yml)
-+ [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/purpur.yml)
-+ [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/pufferfish.yml)
-+ [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/server.properties)
+This folder/branch contains all the optimized configuration files for a 1.19.4 Minecraft server:
++ [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/bukkit.yml)
++ [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/server.properties)
++ [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/config/paper-global.yml)
++ [paper-world-defaults.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/config/paper-world-defaults.yml)
++ [purpur.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/purpur.yml)
++ [pufferfish.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/pufferfish.yml)
++ [server.properties](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/server.properties)
 
 
 ## Usage:
@@ -26,7 +26,7 @@ These configs slightly change certain aspects of the game, however these are usu
 ---------------------------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/bukkit.yml">Bukkit.yml</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/bukkit.yml">Bukkit.yml</a><h3></summary>
 <br>
 
 **spawn-limits**
@@ -72,7 +72,7 @@ These configs slightly change certain aspects of the game, however these are usu
 ---------------------------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/spigot.yml">Spigot.yml</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/spigot.yml">Spigot.yml</a><h3></summary>
 <br>
 
 **moved-wrongly-threshold**
@@ -136,7 +136,7 @@ These configs slightly change certain aspects of the game, however these are usu
 -----------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-global.yml">Paper-global.yml</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/config/paper-global.yml">Paper-global.yml</a><h3></summary>
 <br>
 
 No changes have been made
@@ -146,7 +146,7 @@ No changes have been made
 -----------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml">Paper-world-defaults.yml</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/config/paper-world-defaults.yml">Paper-world-defaults.yml</a><h3></summary>
 <br>
 
 
@@ -372,7 +372,7 @@ No changes have been made
 ----------------------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/purpur.yml">Purpur.yml</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/purpur.yml">Purpur.yml</a><h3></summary>
 <br>
 
 **use-alternate-keepalive**
@@ -387,7 +387,7 @@ No changes have been made
 ------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/pufferfish.yml">Pufferfish.yml</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/pufferfish.yml">Pufferfish.yml</a><h3></summary>
 <br>
 
 **dab**
@@ -416,7 +416,7 @@ No changes have been made
 -----------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/server.properties">Server.properties</a><h3></summary>
+<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/server.properties">Server.properties</a><h3></summary>
 <br>
 
 **simulation-distance**
