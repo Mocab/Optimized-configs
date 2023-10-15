@@ -26,7 +26,7 @@ These configs slightly change certain aspects of the game, however these are usu
 ---------------------------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/bukkit.yml">Bukkit.yml</a><h3></summary>
+<summary><h3>Bukkit.yml<h3></summary>
 <br>
 
 **spawn-limits**
@@ -72,7 +72,7 @@ These configs slightly change certain aspects of the game, however these are usu
 ---------------------------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/spigot.yml">Spigot.yml</a><h3></summary>
+<summary><h3>Spigot.yml<h3></summary>
 <br>
 
 **moved-wrongly-threshold**
@@ -136,7 +136,7 @@ These configs slightly change certain aspects of the game, however these are usu
 -----------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/config/paper-global.yml">Paper-global.yml</a><h3></summary>
+<summary><h3>Paper-global.yml<h3></summary>
 <br>
 
 No changes have been made
@@ -146,7 +146,7 @@ No changes have been made
 -----------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/config/paper-world-defaults.yml">Paper-world-defaults.yml</a><h3></summary>
+<summary><h3>Paper-world-defaults.yml<h3></summary>
 <br>
 
 
@@ -372,7 +372,7 @@ No changes have been made
 ----------------------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/purpur.yml">Purpur.yml</a><h3></summary>
+<summary><h3>Purpur.yml<h3></summary>
 <br>
 
 **use-alternate-keepalive**
@@ -387,7 +387,7 @@ No changes have been made
 ------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/pufferfish.yml">Pufferfish.yml</a><h3></summary>
+<summary><h3>Pufferfish.yml<h3></summary>
 <br>
 
 **dab**
@@ -416,7 +416,7 @@ No changes have been made
 -----------------------------------------------
 
 <details>
-<summary><h3><a href="https://github.com/Mocab/Optimized-configs/blob/1.19/server.properties">Server.properties</a><h3></summary>
+<summary><h3>Server.properties<h3></summary>
 <br>
 
 **simulation-distance**
