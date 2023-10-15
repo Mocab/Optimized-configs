@@ -1,5 +1,5 @@
 # Optimized Minecraft Server Configuration Files
-This folder/branch contains all the optimized configuration files for a 1.19.4 Minecraft server:
+This folder/branch contains all the optimized configuration files for a **1.19.4** Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/server.properties)
 + [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/1.19/config/paper-global.yml)
