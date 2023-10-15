@@ -1,5 +1,5 @@
 # Optimized Minecraft Server Configuration Files
-This folder contains all the optimized configuration files for a 1.19 Minecraft server:
+This folder contains all the optimized configuration files for a 1.19.4 Minecraft server:
 + [bukkit.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/bukkit.yml)
 + [spigot.yml](https://raw.githubusercontent.com/Mocab/Optimized-Minecraft-server-configurations/main/1.19/spigot.yml)
 + [paper-global.yml](https://raw.githubusercontent.com/Mocab/Optimized-configs/main/1.19/config/paper-global.yml)
@@ -21,7 +21,7 @@ Simply download the configuration files/folders included above (Including the "c
 Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
 ## Changes:
-These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (very unlikely), so we recommend that you go through the changes made below and make any changes as needed:
+These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes as needed:
 
 ---------------------------------------------------------------
 
@@ -74,13 +74,6 @@ These configs slightly change certain aspects of the game, however these are usu
 <details>
 <summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/spigot.yml">Spigot.yml</a><h3></summary>
 <br>
-
-**save-user-cache-on-stop-only**
-
-```diff
--  save-user-cache-on-stop-only: false
-+  save-user-cache-on-stop-only: true
-```
 
 **moved-wrongly-threshold**
 
@@ -138,15 +131,6 @@ These configs slightly change certain aspects of the game, however these are usu
 +      tick-inactive-villagers: false
 ```
 
-**max-tick-time**
-
-```diff
--      tile: 50
--      entity: 50
-+      tile: 1000
-+      entity: 1000
-```
-
 </details>
 
 -----------------------------------------------
@@ -165,28 +149,11 @@ No changes have been made
 <summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/paper-world-defaults.yml">Paper-world-defaults.yml</a><h3></summary>
 <br>
 
-**entity-per-chunk-save-limit**
-
-```diff
--      arrow: -1
--      ender_pearl: -1
--      experience_orb: -1
--      fireball: -1
--      small_fireball: -1
--      snowball: -1
-+      arrow: 5
-+      ender_pearl: 5
-+      experience_orb: 10
-+      fireball: 5
-+      small_fireball: 5
-+      snowball: 5
-```
 
 **max-auto-save-chunks-per-tick**
-
 ```diff
--    max-auto-save-chunks-per-tick: 24
-+    max-auto-save-chunks-per-tick: 12
+- max-auto-save-chunks-per-tick: 24
++ max-auto-save-chunks-per-tick: 15
 ```
 
 **prevent-moving-into-unloaded-chunks**
@@ -194,6 +161,42 @@ No changes have been made
 ```diff
 -    prevent-moving-into-unloaded-chunks: false
 +    prevent-moving-into-unloaded-chunks: true
+```
+
+**entity-per-chunk-save-limit**
+
+```diff
+-    arrow: -1
+-    ender_pearl: -1
+-    experience_orb: -1
+-    fireball: -1
+-    small_fireball: -1
+-    snowball: -1
++    area_effect_cloud: 8
++    arrow: 10
++    dragon_fireball: 3
++    egg: 10
++    ender_pearl: 5
++    experience_bottle: 3
++    experience_orb: 16
++    eye_of_ender: 5
++    fireball: 5
++    firework_rocket: 5
++    llama_spit: 3
++    potion: 8
++    shulker_bullet: 5
++    small_fireball: 5
++    snowball: 5
++    spectral_arrow: 10
++    trident: 10
++    wither_skull: 3
+```
+
+**max-auto-save-chunks-per-tick**
+
+```diff
+-    max-auto-save-chunks-per-tick: 24
++    max-auto-save-chunks-per-tick: 15
 ```
 
 **max-entity-collisions**
@@ -250,9 +253,9 @@ No changes have been made
 +        andesite: 600
 +        scaffolding: 900
 +        wheat_seeds: 300
-+	  melon_seeds: 300
-+	  pumpkin_seeds: 300
-+	  beetroot_seeds: 300
++	     melon_seeds: 300
++	     pumpkin_seeds: 300
++	     beetroot_seeds: 300
 ```
 
 **non-player-arrow-despawn-rate**
@@ -313,13 +316,6 @@ No changes have been made
 +      water_creature:
 +        hard: 98
 +        soft: 32
-```
-
-**non-player-arrow-despawn-rate**
-
-```diff
--    non-player-arrow-despawn-rate: -1
-+    non-player-arrow-despawn-rate: 100
 ```
 
 **optimize-explosions**
@@ -386,20 +382,6 @@ No changes have been made
 +  use-alternate-keepalive: true
 ```
 
-**brain-ticks**
-
-```diff
--        brain-ticks: 1
-+        brain-ticks: 2
-```
-
-**can-move-in-water-over-fence**
-
-```diff
--        can-move-in-water-over-fence: true
-+        can-move-in-water-over-fence: false
-```
-
 </details>
 
 ------------------------------------------
@@ -407,6 +389,12 @@ No changes have been made
 <details>
 <summary><h3><a href="https://github.com/Mocab/Optimized-Minecraft-server-configurations/blob/main/1.19/pufferfish.yml">Pufferfish.yml</a><h3></summary>
 <br>
+
+**dab**
+```diff
+- enabled: false
++ enabled: true
+```
 
 **activation-dist-mod**
 
@@ -421,6 +409,7 @@ No changes have been made
 -  max-loads-per-projectile: 10
 +  max-loads-per-projectile: 8
 ```
+
 
 </details>
 
