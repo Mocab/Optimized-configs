@@ -21,7 +21,7 @@ Simply download the configuration files/folders included above (Including the "c
 Alternatively, you can copy the file's contents then paste them into your server's configuration file.
 
 ## Changes:
-These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes made below and make any changes as needed:
+These configs slightly change certain aspects of the game, however these are usually insignificant or are not noticeable. They may still break plugins and/or farms (unlikely), so we recommend that you go through the changes and make any adjustments as seen fit:
 
 ---------------------------------------------------------------
 
@@ -149,13 +149,6 @@ No changes have been made
 <summary><h3>Paper-world-defaults.yml<h3></summary>
 <br>
 
-
-**max-auto-save-chunks-per-tick**
-```diff
-- max-auto-save-chunks-per-tick: 24
-+ max-auto-save-chunks-per-tick: 15
-```
-
 **prevent-moving-into-unloaded-chunks**
 
 ```diff
@@ -253,9 +246,9 @@ No changes have been made
 +        andesite: 600
 +        scaffolding: 900
 +        wheat_seeds: 300
-+	     melon_seeds: 300
-+	     pumpkin_seeds: 300
-+	     beetroot_seeds: 300
++        melon_seeds: 300
++        pumpkin_seeds: 300
++        beetroot_seeds: 300
 ```
 
 **non-player-arrow-despawn-rate**
@@ -416,6 +409,6 @@ No changes have been made
 
 ----------------------------------------------------------------------
 
-This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information explained in detail.
+This guide was made based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information that is explained in detail.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
