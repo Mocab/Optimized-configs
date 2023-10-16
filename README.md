@@ -390,26 +390,12 @@ No changes have been made
 <summary><h3>Pufferfish.yml<h3></summary>
 <br>
 
-**dab**
-```diff
-- enabled: false
-+ enabled: true
-```
-
-**activation-dist-mod**
-
-```diff
--  activation-dist-mod: 8
-+  activation-dist-mod: 7
-```
-
 **max-loads-per-projectile**
 
 ```diff
 -  max-loads-per-projectile: 10
 +  max-loads-per-projectile: 8
 ```
-
 
 </details>
 

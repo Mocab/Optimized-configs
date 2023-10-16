@@ -43,7 +43,7 @@ projectile:
 # they're far away from the player
 dab:
   
-  enabled: true
+  enabled: false
   # This value determines how far away an entity has to be
   # from the player to start being effected by DEAR.
   start-distance: 12
@@ -54,7 +54,7 @@ dab:
   # tick frequency. freq = (distanceToPlayer^2) / (2^value)
   # If you want further away entities to tick less often, use 7.
   # If you want further away entities to tick more often, try 9.
-  activation-dist-mod: 7
+  activation-dist-mod: 8
   # A list of entities to ignore for activation
   blacklisted-entities: []
 # Throttles the AI goal selector in entity inactive ticks.
