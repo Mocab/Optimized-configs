@@ -2,8 +2,10 @@
 This repository contains all the optimized configuration files for a Minecraft server.
 
 ### Versions:
-+ [1.18](https://github.com/Mocab/Optimized-configs/tree/1.18)
++ [1.20](https://github.com/Mocab/Optimized-configs/tree/1.20)
 + [1.19](https://github.com/Mocab/Optimized-configs/tree/1.19)
++ [1.18](https://github.com/Mocab/Optimized-configs/tree/1.18)
+
 
 ### Navigation:
 To navigate between and from versions, use the "Versions" section above, or use the branch switcher at the top left of the page.
@@ -19,6 +21,6 @@ These configs slightly change certain aspects of the game, however these are usu
 
 ----------------------------------------------------------------------
 
-##### These configs were optimized based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information explained in detail.
+###### These configs were optimized based on [Paper Chan’s Little Guide to Minecraft Server Optimization!](https://eternity.community/index.php/paper-optimization/) and [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization). I would highly recommend going through them, as they contain a lot of useful information explained in detail.
 
 > Do not forget to set `server-port=25565` (server.properties) to your server's port.
